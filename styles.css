@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 .hero {
     height: 90vh;
-    background: no-repeat center/cover url("images/bill-oxford-OXGhu60NwxU-unsplash--1900_resize.jpg");
+    background: no-repeat center/cover url("images/bill-oxford-OXGhu60NwxU-unsplash--800_resize.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -161,6 +161,7 @@ h2 {
     font-family: 'Crimson Text', serif;
     font-size: 1.95rem;
     letter-spacing: .15rem;
+    margin-top: 1.5rem;
     padding-top: .5rem;
 }
 
@@ -220,6 +221,7 @@ section small {
 
 .service-card img {
     width: 100%;
+    height: auto;
     max-width: 90vw;
 }
 
@@ -345,6 +347,9 @@ footer p {
 @media only screen and (min-width:576px) and (max-height:992px), 
 (min-width:924px) and (max-height:575px) and (orientation: landscape) {
     .hero {
+        background: no-repeat center/cover url("images/bill-oxford-OXGhu60NwxU-unsplash--1900_resize.jpg");
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay;
         flex-direction: row;
     }
     .partners-grid {
